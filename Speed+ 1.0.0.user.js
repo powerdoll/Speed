@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Speed+
-// @version      1.0.0
+// @version      1.0.3
 // @description  Speed / Pitch changer control bar for YouTube
-// @author       Caassiiee
+// @author       @Caassiiee
 // @match        http*://www.youtube.com/watch*
-// @icon64       data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAACiElEQVR4nO3ZvU5UURSG4RdFE+QSUEu9C1sLCy5A6Uy8EtRSwViReAcEC0y0k0ugIwIJBbWNFiQmY8FMmDmcn7X3Xt/aU5yVnIZM8s37ZAgJA+ONN954i7cKHALPg/ZeA5+B+0F7g7cBTIArYDNgb3+695UlQXjM9RuaAP+Al+K9g7m978CaeG/w5gEiEOYBlgKhCaBGaAJUR2gDUCK0AVRF6AJQIXQBVEPoA1Ag9AFUQRgCmCG8ctobAghHsAB4IlgAJsAPghCsAF4IVoAwhBQAD4QUgBCEVIBShFQAOUIOQAlCDoAUIRcgFyEXQIZQApCDUAIgQSgFSEUoBXBH8ABIQfAAcEXwArAieAG4IXgCWBA8AVwQvAGGELwBihEUADOErSCACfATWF8mgC4EFUA2ghKgDUEJkIWgBmgiqAF6EVZTZBzvLvAlcO8Z8A14AfwZenHEJ2D2XAEngXufLFqRANHPZTP2jkVEfL8Dt46bP6gNsAMcBW1dAG8sL4z6Fdie7kX8FfgFPLQ5xQBsc3NqgKT4CID5eDVAcrwa4G3LngrgNCdeCdAWrwI4BR7lxKsAuuIVAEXxCoC+eG+A4njwBXhn2PMCcIkHPwBLPPgAuMWDD4A1HsoBXOOhHCAlHsoA3OOhDCA1HvIBJPGQD/A+cy8H4AxRPOQB5MZDOsDZ9D3KLhXgA7BSsJcCII+HNIDSeLADhMSDHeAj5fFgAwiLBxuAVzwMA4TGwzCAZzz0A5wTHA/9AN7x0A1QJR66ARTx0A5QLR7aAXbQxMNtgKrxcBtAGQ+LANXjYRFgD/13BzOAS+CJeMt068BfYJeYL052uf7v7dOALfM9CNy6N33GG2+88cLvP3CmutKKbbx2AAAAAElFTkSuQmCC
+// @icon64        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAQAAADTdEb+AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAgcMAAIHDAVNYbsIAAAAHdElNRQfhCgUDNwD+45R5AAADc0lEQVR42u3WsU3DABRF0Z/AWohRIKMxCmsZJaZBVFEUJK6M0TmVy1dc23+Ge5xmmXXWWea09ZR9OG49gP9JWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWPdZrzxxw+Octp6wA+d5+noFj/M0l3nYetDfd5hl6wm7cPyO6TyXrcfswcGnnYIbi8TjfGw9YRf8Cn/o4Hi/w3me52UeZuY8b/PueOe3vM4y66yzzOvWU/bBjXWfw5UnbhAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWiU9N+hvulv+L7AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNy0xMC0wNFQyMDo1NTowMC0wNzowMJNobkEAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTctMTAtMDRUMjA6NTU6MDAtMDc6MDDiNdb9AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg==
 // @grant        none
 // @license      MPL-2.0
 // @namespace    Caassiiee
@@ -34,9 +34,9 @@ function waitForElement(guaranteedParent, selector) {
     'use strict';
     const container = document.createElement("div");
     container.id = "ytspeed-container";
-    container.innerHTML = '<p class="bold" style="font-size:2rem">𝑺𝒑𝒆𝒆𝒅</p><input type="range" min="0.1" max="8" value="1" step="0.1" id="ytspeed-slider" list="ytspeed-list">'+
+    container.innerHTML = '<p class="bold" style="font-size:2rem">Ｓｐｅｅｄ＋</p><input type="range" min="0.1" max="8" value="1" step="0.1" id="ytspeed-slider" list="ytspeed-list">'+
         '<datalist id="ytspeed-list" display="none"><option value="0.5"></option><option value="1"></option><option value="2"></option><option value="4"></option><option value="8"></option></option></datalist>'+
-        '<p id="ytspeed-label">1x</p><label for="ytspeed-pitch">𝑷𝒓𝒆𝒔𝒆𝒓𝒗𝒆 𝒑𝒊𝒕𝒄𝒉</label><input type="checkbox" id="ytspeed-pitch" checked><p style="margin-top:1vh;">☆*: .｡. o(≧▽≦)o .｡.:*☆</p>';
+        '<p id="ytspeed-label">1x</p><label for="ytspeed-pitch">Ｐｒｅｓｅｒｖｅ ｐｉｔｃｈ</label><input type="checkbox" id="ytspeed-pitch" checked><p style="margin-top:1vh;">✧</p>';
     const style = document.createElement("style");
     style.innerText = `
     #ytspeed-container {font-size:1.2rem;}
